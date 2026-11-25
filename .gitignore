@@ -1,0 +1,14 @@
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+keystore/
+apk/
+*.apk
+
+# Local-only (paths of this PC)
+*.bat
+!gradlew.bat
+*.local.md
