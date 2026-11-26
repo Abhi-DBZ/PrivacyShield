@@ -21,6 +21,21 @@ and hides the screen right away.
 | Needs | A phone with that screen | Any phone with Android 8.0 or newer |
 | Battery | None extra | Small; more with the camera features on |
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/01-home.png" width="200" alt="Home screen with the shield on"><br><sub>Shield on, live tilt reading</sub></td>
+    <td align="center"><img src="screenshots/02-hidden.png" width="200" alt="Screen hidden after the phone turned away"><br><sub>Phone turned away: hidden</sub></td>
+    <td align="center"><img src="screenshots/03-fake-clock.png" width="200" alt="Fake clock screen shown instead"><br><sub>Fake screen: clock</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/04-reading.png" width="200" alt="Reading window: everything dark except a strip"><br><sub>Reading window (drag ≡)</sub></td>
+    <td align="center"><img src="screenshots/05-chosen-apps.png" width="200" alt="Choosing the apps to protect"><br><sub>Only in chosen apps</sub></td>
+    <td></td>
+  </tr>
+</table>
+
 ## Features
 
 - **Tilt guard**: remembers how you hold the phone and hides the screen when it turns away from
@@ -96,6 +111,10 @@ Optional, when you switch on these features:
   the phone normally.
 - It can't stop someone taking a photo of your screen.
 - Android doesn't let apps cover the notification shade, the lock screen or some system screens.
+- **Some apps switch off all overlays while they are open**, and then Privacy Shield can't cover
+  them: the system Settings and Files apps, permission dialogs, and some banking apps (an Android
+  security feature against screen hijacking). The shield still notices the risk, it just can't
+  draw over those apps.
 - It doesn't start by itself after the phone restarts.
 - The reading window can be at most 78% dark outside the strip. Anything darker would stop your
   taps from reaching the app underneath (an Android rule).

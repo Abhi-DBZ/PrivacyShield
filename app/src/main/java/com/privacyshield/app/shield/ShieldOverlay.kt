@@ -98,10 +98,12 @@ class ShieldOverlay(
         clock.gravity = Gravity.CENTER
         clock.background = GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, intArrayOf(0xFF0B0F1A.toInt(), 0xFF1C2740.toInt()))
         clock.addView(TextClock(context).apply {
+            gravity = Gravity.CENTER_HORIZONTAL
             setTextColor(Color.WHITE); setTextSize(TypedValue.COMPLEX_UNIT_SP, 76f)
             typeface = android.graphics.Typeface.create("sans-serif-light", android.graphics.Typeface.NORMAL)
         })
         clock.addView(TextClock(context).apply {
+            gravity = Gravity.CENTER_HORIZONTAL
             format12Hour = "EEEE, d MMMM"; format24Hour = "EEEE, d MMMM"
             setTextColor(0xCCFFFFFF.toInt()); setTextSize(TypedValue.COMPLEX_UNIT_SP, 18f)
         })
